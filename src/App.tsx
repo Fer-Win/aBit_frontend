@@ -1,9 +1,7 @@
 
 import './App.css'
 import VideoCard from './components/VideoCard'
-
-
-import DefaultVideoCard from './components/defaultVideoCard';
+import DefaultVideoCard from './components/DefaultVideoCard';
 
 function App() {
 
