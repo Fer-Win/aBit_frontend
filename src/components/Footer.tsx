@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <div className='w-screen bg-[#D8D8D8] h-64 flex justify-center items-center'>
+    <div className='w-screen bg-[#EDEDED] h-64 flex justify-center items-center'>
        <div className="flex w-[80%] h-24 justify-between items-center">
         <div className="w-[200px]">
             <h1 className='text-3xl font-bold'>aBit</h1>
