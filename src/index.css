@@ -3,8 +3,13 @@
 @tailwind utilities;
 
 
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
 body{
   overflow-x: hidden;
+}
+.marquee {
+  font-family: 'Gloria Hallelujah', cursive;
 }
 /* ::-webkit-scrollbar {
   width: 5px;
