@@ -1,6 +1,10 @@
+import { useState } from "react"
 
 
 const ProfileCard = () => {
+  const handleSwitch=()=>{
+    document.getElementsByClassName('switchButton')[0].classList.toggle('justify-end');
+  }
   return (
     <div className='h-60 w-[550px] bg-[#EDEDED] rounded-3xl flex'>
         <div className=" h-full w-[40%] border-r-2 border-black bg-cover flex justify-center items-center overflow-hidden ">
@@ -19,8 +23,8 @@ const ProfileCard = () => {
               Simply a film fan creating original content for YouTube. Let’s Collaborate.
             </p>
           </div>
-          <div className="w-full bg-[#000000A6] border-[1px] border-black rounded-md h-10 overflow-hidden">
-              <div className="w-1/2 bg-white rounded h-full flex justify-center items-center  border border-inherit">Creator</div>
+          <div className="switchButton w-full bg-[#000000A6] border-[1px] border-black rounded-md flex  h-10 overflow-hidden">
+              <div className="w-1/2 bg-white rounded h-full flex justify-center items-center  border-2 border-inherit cursor-pointer " onClick={handleSwitch}>Creator</div>
           </div>
         </div>
     </div>
