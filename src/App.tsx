@@ -3,13 +3,14 @@ import './App.css'
 
 import ReleasesContainer from './components/ReleasesContainer';
 import HeroSection from './components/HeroSection';
+import ShareButton from './components/ShareButton';
 
 
 function App() {
 
 
   return (
-  <div className=''>
+  <div className='relative'>
       <HeroSection/>
   {/* <div className='bg-red-400'>
              <div className='h-[350px] '>
@@ -24,6 +25,7 @@ function App() {
       
       <ReleasesContainer/>
 
+  <ShareButton/>
   </div>
      
 
