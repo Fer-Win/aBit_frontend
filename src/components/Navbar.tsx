@@ -2,6 +2,7 @@ import { IoWallet } from "react-icons/io5";
 import { FaBell } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 import { RxHamburgerMenu } from "react-icons/rx";
+import ShareButton from "./ShareButton";
 
 const Navbar = () => {
   return (
@@ -19,12 +20,14 @@ const Navbar = () => {
         </div>
       </div>
       <div className=" md:hidden flex justify-center items-center gap-5">
+      <ShareButton></ShareButton>
       <div className="md:hidden  h-12 w-12 block rounded-full border-2 border-black bg-slate-500 overflow-hidden">
           <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
         </div>
         <div>
           <RxHamburgerMenu  size={30} className="md:hidden hover:text-black transition-all duration-300 ease-out cursor-pointer"/>
         </div>
+        
       </div>
     </div>
   )
