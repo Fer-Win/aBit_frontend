@@ -2,9 +2,8 @@
 import './App.css'
 
 import ReleasesContainer from './components/ReleasesContainer';
- import HeroSection from './components/HeroSection';
-import ScrollBanner from './components/ScrollBanner';
-import ProfileCard from './components/ProfileCard';
+import HeroSection from './components/HeroSection';
+
 
 function App() {
 
