@@ -13,11 +13,11 @@ interface VideoCardProps{
 const VideoCard : React.FC<VideoCardProps> = ({title,shares,offered,raised,imgUrl}) => {
   return (
     <div 
-    style={{ backgroundImage: `url(${imgUrl})`,boxShadow : '0px 3px 10px #5c5e5d'}} 
-    className='h-80 w-72 overflow-hidden bg-cover rounded-3xl relative object-cover text-white flex flex-col justify-between '>
+    style={{ backgroundImage: `url(${imgUrl})`,boxShadow : '0px 3px 10px #5c5e5d',backgroundSize: 'cover',backgroundPosition: 'center'}} 
+    className='h-80 w-72 overflow-hidden bg-cover rounded-3xl relative object-cover text-white flex flex-col justify-between  '>
     
     <div>
-    <div className="font-bold text-[22px] text-left py-5 px-5" >{title}</div>
+    <div className="font-bold text-[22px] text-left py-5 px-5 w-3/4" >{title}</div>
     </div>
     <div className="mb-4">
     <VideoCardTag shares={shares} offered={offered} raised={raised} ></VideoCardTag>

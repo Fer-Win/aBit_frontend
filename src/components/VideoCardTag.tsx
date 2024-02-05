@@ -14,11 +14,11 @@ const VideoCardTag:React.FC<VideoCardTagProps> = ({shares,offered,raised}) => {
         </div>
         <div className='flex flex-col items-center'>
             <p className='font-medium text-sm'>Offered</p>
-            <p className='text-base'>{offered}</p>
+            <p className='text-base'>{offered}%</p>
         </div>
         <div className='flex flex-col items-center'>
             <p className='font-medium text-sm'>Raised</p>
-            <p className='text-base'>{raised}</p>
+            <p className='text-base'>${raised}</p>
         </div>
     </div>
   )

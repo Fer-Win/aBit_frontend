@@ -9,7 +9,7 @@ const Footer = () => {
             <h2>Changing the way in which creators and fans interact.</h2>
         </div>
         <div className="w-[200px] border-l-2 h-full border-[#717171]">
-            <ul className="px-4 text-xs flex flex-col justify-between h-full py-2 font-bold">
+            <ul className="px-4 text-sm flex flex-col justify-between h-full py-2 font-bold">
                 <li>Home</li>
                 <li>Are you a Creator?</li>
                 <li>Support</li>

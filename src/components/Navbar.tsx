@@ -5,9 +5,9 @@ import { IoIosArrowDown } from "react-icons/io";
 const Navbar = () => {
   return (
     <div className='w-screen h-28 bg-[#DDDEE0] border-b-2 border-black flex justify-between items-center pl-10 pr-4'>
-      <div className="text-xl font-bold ">aBit</div>
+      <div className="text-2xl font-bold ">aBit</div>
       <div className="flex w-1/3 justify-around items-center">
-        <button className="text-[#764CC2] bg-transparent text-sm font-bold  flex px-6 py-3 border-[3px] rounded-full border-[#764CC2]">Share new video</button>
+        <button className="text-[#764CC2] bg-transparent text-sm font-bold  flex px-6 py-3 border-[3px] rounded-full border-[#764CC2] hover:text-[#DDDEE0] hover:bg-[#764CC2] transition-all duration-200 ease-in-out">Share new video</button>
         <div className="text-[#918c8c] flex justify-around items-center   w-1/2">
         <FaBell size={30}  className="hover:text-black transition-all duration-300 ease-out cursor-pointer"/>
         <IoWallet size={30} className="hover:text-black transition-all duration-300 ease-out cursor-pointer"/>
