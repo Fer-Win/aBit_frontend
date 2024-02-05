@@ -11,26 +11,26 @@ const Releases = () => {
             <div className='md:w-1/2 w-[25%] h-[80%] my-auto flex  border-l-2 border-[#7A7A7A] '>
                 <div className='px-2 md:px-4 flex flex-col justify-between'>
                     <h2 className='text-lg font-bold text-[#565656]'>2</h2>
-                    <p className='md:text-sm text-base w-full md:w-2/3 text-[#696969]'>Shared Videos</p>
+                    <p className='md:text-sm text-sm w-full md:w-2/3 text-[#696969]'>Shared Videos</p>
                 </div>
             </div>
             <div className='md:w-1/2 w-[25%] h-[80%] my-auto flex border-l-2 border-[#7A7A7A] '>
                 <div className='px-2 md:px-4  flex flex-col justify-between'>
                     <h2 className='text-lg font-bold text-[#565656]'>$9510</h2>
-                    <p className=' md:text-sm text-base w-full md:w-2/3 text-[#696969]'>Funds
+                    <p className=' md:text-sm text-sm w-full md:w-2/3 text-[#696969]'>Funds
 Raised</p>
                 </div>
             </div>
             <div className='md:w-1/2 w-[25%] h-[80%] my-auto flex  border-l-2 border-[#7A7A7A] '>
                 <div className='px-2 md:px-4 flex flex-col justify-between'>
                     <h2 className='text-lg font-bold text-[#565656]'>317</h2>
-                    <p className=' md:text-sm text-base w-full md:w-2/3 text-[#696969]'>Co-owner community</p>
+                    <p className=' md:text-sm text-sm w-full md:w-2/3 text-[#696969]'>Co-owner community</p>
                 </div>
             </div>
             <div className=' md:w-1/2 w-[25%] h-[80%] my-auto flex  border-l-2 border-[#7A7A7A] '>
                 <div className='px-2 md:px-4 flex flex-col justify-between'>
                     <h2 className='text-lg font-bold text-[#565656]'>$3804</h2>
-                    <p className=' md:text-sm text-base w-full md:w-2/3 text-[#696969]'>Co-owner
+                    <p className=' md:text-sm text-sm w-[100px] md:w-2/3 text-[#696969]'>Co-owner
 Earnings</p>
                 </div>
             </div>
